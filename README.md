@@ -1,3 +1,0 @@
-# bthsacschem.github.io
-
-hello 
