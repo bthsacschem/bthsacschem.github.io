@@ -7,6 +7,50 @@
 
 <title> BTHS ACS ChemClub </title>
 
+<style>
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 23.5%;
+  margin-bottom: 16px;
+  padding: 10 10px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 20px;
+	padding: 15px;
+	background-color: #f2e7db;
+}
+
+
+.container1 {
+  padding: 10 10px;
+}
+
+.container1::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+</style>
+
 </head>
 
 <body>
@@ -36,7 +80,7 @@
 </div>
 
 <!-- Second Section -->
-<div class="container" style="background-color:#f2e7db">
+<div class="container" style="background-color: #f2e7db;">
   <div class="row">
     <div class="column-66">
       <h1 class="xlarge-font"><b>Activities</b></h1>
@@ -47,17 +91,63 @@
   </div>
 </div>
 
-<!-- 3rd section -->
-<div class="container" style="background-color:"white">
-  <div class="row">
-    <div class="column-66">
-      <h1 class="xlarge-font" style="color:#E8A87C"><b>Our Mission</b></h1>
-      <p class="p1"style="color:#f25e6c;"> We aim to help students that are in a chemistry course this year, to introduce career choices in chemistry, and most importantly: to share our love of chemistry.</p>
-      <button class="button" onclick="https://thomasjfrank.com/">CLICK HERE TO JOIN</button>
-    </div>
-    <div class="column-33">
-        <!-- <img src="acs.png" class="image1" width="251" height="330"> */ -->
+
+
+<!-- about us Section-->
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column" style="margin-left: 45px;">
+    <div class="card">
+      <img src="/w3images/team1.jpg" alt="Lori" style="width:100%">
+      <div class="container1">
+        <h2>Lori Tsang</h2>
+        <p class="title">Co-President</p>
+        <p style="color: #41B3A3">Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p style="color: #41B3A3">jane@example.com</p>
+      </div>
     </div>
   </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team2.jpg" alt="Emily" style="width:100%">
+      <div class="container1">
+        <h2>Emily Chen</h2>
+        <p class="title">Co-President</p>
+        <p style="color: #41B3A3">Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p style="color: #41B3A3">mike@example.com</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" alt="Tiana" style="width:100%">
+      <div class="container1">
+        <h2>Tiana Lee</h2>
+        <p class="title">Vice-President of Student Services</p>
+        <p style="color: #41B3A3">Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p style="color: #41B3A3">john@example.com</p>
+      </div>
+    </div>
+  </div>
+
+	<div class="column" style="margin-right: 45px;">
+		<div class="card">
+			<img src="/w3images/team3.jpg" alt="Nikki" style="width:100%">
+			<div class="container1">
+				<h2>Nikki Cheng</h2>
+				<p class="title">Vice President of Publicity</p>
+				<p style="color: #41B3A3">Some text that describes me lorem ipsum ipsum lorem.</p>
+				<p style="color: #41B3A3">john@example.com</p>
+			</div>
+		</div>
+	</div>
+	</div>
 </div>
+
+
+
+
+
 </body>
